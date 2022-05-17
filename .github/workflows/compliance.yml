@@ -1,4 +1,4 @@
-name: Create and Publish Docker Image
+name: compliance
 
 on:
   workflow_call:
