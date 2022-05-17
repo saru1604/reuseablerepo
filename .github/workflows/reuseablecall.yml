@@ -20,7 +20,8 @@ jobs:
 
     steps:      
       - uses: actions/checkout@v2
- 
+             
+run:
       - name: Setup BuildX
         uses: docker/setup-buildx-action@v1
 
