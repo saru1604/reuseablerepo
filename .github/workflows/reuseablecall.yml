@@ -47,9 +47,7 @@ run:
           push: true
           tags: ${{secrets.registry_username}}/${{inputs.image_name}}:${{env.final_tag}}
 
-
-  do-something-else:
-    runs-on: ubuntu-latest
-
-    steps:
-    - run: echo "Hello"
+        do-something-else:
+                 runs-on: ubuntu-latest
+                 steps:
+                    - run: echo "Hello"
